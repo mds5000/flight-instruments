@@ -1,0 +1,34 @@
+#pragma once
+
+#define SET_COL_ADDR    0x15
+#define SET_ROW_ADDR    0x75
+#define WRITE_RAM       0x5C
+#define READ_RAM        0x5D
+#define SET_REMAP       0xA0
+#define DISP_START_LN   0xA1
+#define DISP_OFFSET     0xA2
+#define DISP_ALLOFF     0xA4
+#define DISP_ALLON      0xA5
+#define DISP_NORMAL     0xA6
+#define DISP_INVERT     0xA7
+#define FUNC_SELECT     0xAB
+#define NOP             0xAD
+#define DISPLAY_OFF     0xAE
+#define DISPLAY_ON      0xAF
+#define PRECHARGE       0xB1
+#define DISP_ENCHANCE   0xB2
+#define CLOCK_DIV       0xB3
+#define SET_VSL         0xB4
+#define SET_GPIO        0xB5
+#define PRECHARGE_2     0xB6
+#define GREY_LUT        0xB8
+#define DEFAULT_LUT     0xB9
+#define PRECHARGE_VOLT  0xBB
+#define SET_V_COMH      0xBE
+#define CONTRAST_ABC    0xC1
+#define CONTRAST_MASTER 0xC7
+#define MUX_RATIO       0xCA
+#define COMMAND_LOCK    0xFD
+#define H_SCROLL        0x96
+#define STOP_SCROLL     0x9E
+#define START_SCROLL    0x9F
